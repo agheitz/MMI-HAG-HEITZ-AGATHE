@@ -1,0 +1,50 @@
+body {
+	background-color:#ebe7df;
+	font-family:Arial;
+}
+
+.topbar {
+	background-color:#242424;
+	height:40px;
+}
+
+.menu {
+	background-color:white;
+	height:60px;
+}
+
+h1 {
+	color:#57c5a0;
+	font-size:20px;
+	line-height:40px;
+}
+
+.menu li{
+	display:inline-block;
+	line-height:60px;
+}
+
+.slider {
+	background-color:#efede8;
+	height:460px;
+}
+
+.slider-menu {
+	background-color:#2e2e2e;
+	height:90px;
+}
+
+.slider-menu li {
+	display:inline-block;
+	line-height:90px;
+	color:white;
+}
+
+.specials {
+	background-color:#242424;
+	height:230px;
+}
+
+.wrap {
+	height:1100px;
+}
