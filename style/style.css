@@ -11,33 +11,56 @@ body {
 .menu {
 	background-color:white;
 	height:60px;
+	padding-left:15%;
 }
 
 h1 {
 	color:#57c5a0;
 	font-size:20px;
 	line-height:40px;
+	padding-left:15%;
 }
 
 .menu li{
 	display:inline-block;
 	line-height:60px;
+	font-size:14px;
+}
+
+.menu li a {
+	display:block;
+	text-decoration:none;
+	color:black;
+	padding:0 15px;
+}
+
+.menu li a:hover {
+	color:white;
+	background-color:#242424;
 }
 
 .slider {
 	background-color:#efede8;
-	height:460px;
+	height:461px;
 }
 
 .slider-menu {
 	background-color:#2e2e2e;
 	height:90px;
+	text-align:center;
 }
 
 .slider-menu li {
 	display:inline-block;
 	line-height:90px;
 	color:white;
+}
+
+.slider-menu li a {
+	display:block;
+	text-decoration:none;
+	color:#979797;
+	padding:0 15px;
 }
 
 .specials {
@@ -47,4 +70,34 @@ h1 {
 
 .wrap {
 	height:1100px;
+}
+
+.prix {
+	height:50px;
+	width:50px;
+	background-color:#57c5a0;
+	color:white;
+	font-size:11px;
+	line-height:50px;
+	text-align:center;
+	margin-top:20%;
+}
+
+h2 {
+	font-size:35px;
+	margin-top:3%;
+}
+
+p {
+	margin-top:3%;
+}
+
+.slider-img {
+	float:left;
+	padding-left:10%;
+}
+
+.description {
+	float:left;
+	width:20%;
 }
