@@ -6,21 +6,23 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style/reset.css">
 	<link rel="stylesheet" href="style/style.css">
-    <script src="js/main.js"></script>
 </head>
 <body>
 	<header>
 		<div class="topbar">
 			<div class="wrap">
 				<div class="logo">
-					<h1>FOOSESHOES</h1>
+					<h1><a href="#">FOOSESHOES</a></h1>
 				</div>
 				<div class="login-register">
 					<ul>
 						<li><a href="#">Login</a> </li>
-						<span class="ou"> or </span>
+						<span class="or"> or </span>
 						<li><a href="#">Register</a> </li>								   
 					</ul>
+				</div>
+				<div class="search">
+					<a href="#"><img src="img/search.png"></a>
 				</div>
 			</div>
 		</div>
@@ -38,42 +40,104 @@
 				</nav>
 				<nav class="menu-right">
 					<ul>
-						<li><i class="fa fa-star-o"></i><a href="#"><span class="gris">30</span></a></li>
-						<li><i class="fa fa-shopping-cart"></i><a href="#"><span>0</span></a></li>
+						<li><a href="#"><i class="fa fa-star-o"></i></a><span class="star">30</span></li>
+						<li><a href="#"><i class="fa fa-shopping-cart"></a></i><span class="shop">0</span></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	</header>
+	
 	<div class="top">
 		<div class="slider">
 			<div class="wrap">
-				<img src="img/img_slider.png" class="slider-img"/>
-				<div class="description">
+				<img src="img/slider.png" class="slider-img" />
+				<div class="slider-description">
 					<div class="prix">$145,99</div>
-					<h2>Pink Shoes<br />2013 Collection</h2>
+					<h2>Pink Shoes</h2><h2>2013 Collection</h2>
 					<p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget...</p>
+					<div class="slider-icons">
+						<ul>
+							<li><a href="#"><i class="fa fa-eye"></i></a></li>
+							<li><a href="#"><i class="fa fa-star-o"></i></a></li>
+							<li><a href="#"><i class="fa fa-share-square-o"></i></a></li>
+							<li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-		<nav class="slider-menu">
-			<ul>
-				<li><a href="#">Pink Shoes</a></li>
-				<li><a href="#">Anna Field</a></li>
-				<li><a href="#">Prada</a></li>
-				<li><a href="#">Casadei</a></li>
-				<li><a href="#">Mellow Yellow</a></li>
-			</ul>
-		</nav>
+		<div class="slider-menu">
+			<div class="wrap">
+				<div class="slider-flex">
+					<div class="bloc1">
+						<div class="slider-barre"><hr></div>
+						<div class="slider-texte">
+							<h3>Pink Shoes</h3>
+							<p>Now at $145,99</p>
+						</div>
+					</div>
+					<div class="bloc2">
+						<div class="slider-barre"><hr></div>
+						<div class="slider-texte">
+							<h3>Anna Field</h3>
+							<p>Limited edition</p>
+						</div>
+					</div>
+					<div class="bloc3">
+						<div class="slider-barre"><hr></div>
+						<div class="slider-texte">
+							<h3>Prada</h3>
+							<p>Summer is coming</p>
+						</div>
+					</div>
+					<div class="bloc4">
+						<div class="slider-barre"><hr></div>
+						<div class="slider-texte">
+							<h3>Casadei</h3>
+							<p>All colors available</p>
+						</div>
+					</div>
+					<div class="bloc5">
+						<div class="slider-barre"><hr></div>
+						<div class="slider-texte">
+							<h3>Mellow Yellow</h3>
+							<p>Free delivery</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	
 	<div class="specials">
-		<div class="on-sale">
-		</div>
-		<div class="special-offers">
-		</div>
-		<div class="must-have">
+		<div class="wrap">
+			<div class="slider-flex">
+				<div class="specials-miniature on-sale">
+					<a href="#">
+						<div class="specials-texte">
+							<p>ON SALE</p>
+						</div>
+					</a>
+				</div>
+				<div class="specials-miniature special-offers">
+					<a href="#">
+						<div class="specials-texte">
+							<p>SPECIAL OFFERS</p>
+						</div>
+					</a>
+				</div>
+				<div class="specials-miniature must-have">
+					<a href="#">
+						<div class="specials-texte">
+							<p>MUST HAVE</p>
+						</div>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
+	
 	<div class="wrapper">
 		<div class="new-arrivals">
 			<h3>New arrivals on FooseShoes</h3>
