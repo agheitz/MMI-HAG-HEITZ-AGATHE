@@ -10,17 +10,24 @@ h2{
 	font-size:35px;
 	margin-top:3%;
 }
-p{
-	margin-top:3%;
+h4{
+    float:left;
+    font-size:22px;
+}
+h5{
+    padding-bottom:10px;
+	font-weight:bold;
 }
 a{
-    text-decoration: none;
+    text-decoration:none;
+	color:black;
 }
-.wrapper{
-	height:1100px;
+i{
+	color:#999999;
+	line-height:60px;
 }
 .wrap{
-	width:60%;
+	width:65%;
 	margin:0 auto;
 }
 /***topbar***/
@@ -80,10 +87,6 @@ a{
 .menu-left li a:hover{
 	color:#57c5a0;
 }
-i{
-	color:#999999;
-	line-height:60px;
-}
 .menu-right{
 	float:right;
 }
@@ -106,7 +109,7 @@ i{
 .menu-right li span.shop{
 	background-color:#57c5a0;
 }
-/***slider partie claire***/
+/***slider partie 1***/
 .slider{
 	background-color:#efede8;
 	height:460px;
@@ -122,6 +125,9 @@ i{
 .slider-description{
 	float:left;
 	width:45%;
+}
+.slider-description p{
+	margin-top:3%;
 }
 .prix{
 	height:60px;
@@ -145,7 +151,7 @@ i{
 .slider-icons a:hover *{
     color:#57c5a0;
 }
-/***slider partie foncée***/
+/***slider partie 2***/
 .slider-flex{
     display:flex;
     justify-content:center;
@@ -189,12 +195,179 @@ i{
     align-items:center;
     justify-content:center;
 }
-.on-sale{
+.onsale{
     background-image:url('../img/on-sale.png');
 }
-.special-offers{
+.specialoffers{
     background-image:url('../img/special-offers.png');
 }
-.must-have{
+.musthave{
     background-image:url('../img/must-have.png');
+}
+/***contenu***/
+.contenu{
+	height:1100px;
+}
+.show-all{
+    float:right;
+    border:1px solid #999999;
+    color:#999999;
+	font-size:12px;
+    padding:8px 15px;
+	display:inline-block;
+}
+.show-all:hover{
+	background-color:#57c5a0;
+	color:white;
+	border:1px solid #57c5a0;
+}
+.contenu-titre{
+    padding:20px 0;
+    clear:both;
+}
+.contenu-articles{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.article{
+	margin:20px;
+	width:280px;
+	background-color:white;
+	position:relative;
+	overflow-x:hidden;
+}
+.article-texte{
+    clear:both;
+    width:100%;
+}
+.article-prix{
+    float:left;
+    position:absolute;
+    bottom:0;
+    left:10px;
+    z-index:1321313;
+}
+.article-onsale{
+	height:60px;
+	width:60px;
+	background-color:black;
+    position:absolute;
+    top:0;
+    right:10px;
+	color:white;
+	font-size:12px;
+	line-height:60px;
+	text-align:center;
+}
+.article-outofstock{
+	height:60px;
+	width:60px;
+	color:white;
+	font-size:12px;
+    background-color:#e97746;
+	position:absolute;
+    top:0;
+    right:10px;
+    text-align:center;
+}
+.article-outofstock p{
+    padding-top:20px;
+}
+.article-marque{
+    border-top:2px solid #999999;
+    height:50px;
+    width:100%;
+	float:left;
+}
+.article-marque p{
+    font-size:18px;
+    line-height:50px;
+	margin-left:80px;
+}
+.article-icons{
+    border-top:2px solid #999999;
+    position:absolute;
+    background-color:white;
+    bottom:0;
+    left:0;
+    text-align:center;
+    width:0%;
+	height:50px;
+    padding-left:20px;
+    overflow:hidden;
+    display:inline-block;
+    -webkit-transition:width 0.5s ease-in-out;
+    -moz-transition:width 0.5s ease-in-out;
+    -o-transition:width 0.5s ease-in-out;
+    transition:width 0.5s ease-in-out;
+}
+.article-icons li{
+    display:inline-block;
+    line-height:50px;
+    font-size:15px;
+    margin:0 10px;
+}
+.article-icons a:hover *{
+    color:#57c5a0;
+}
+.article:hover .article-texte .article-marque .article-icons{
+    width:100%;
+}
+.hr{
+	border:1px solid #999999;
+}
+/***blocs addon****/
+.addon{
+    width:100%;
+    display:inline-block;
+}
+.addon p{
+    font-size:14px;
+}
+.freeshipping{
+    width:165px;
+    height:165px;
+	padding:20px;
+    background-color:#dfdbd4;
+    float:left;
+    margin:15px 12px 12px 0;
+	line-height:15px;
+}
+.testimonials{
+    width:165px;
+    height:165px;
+	padding:20px;
+    background-color:#dfdbd4;
+	float:left;
+	margin:15px 0 12px 12px;
+	line-height:15px;
+}
+.blognews{
+	line-height:15px;
+    height:165px;
+    background-color:#dfdbd4;
+	float:right;
+	padding:20px;
+	margin:15px 0 12px 0;
+}
+.blognews-date{
+	float:left;
+    text-align:center;
+    color:white;
+	margin:12px 5px;
+    background-color:#57c5a0;
+    padding:5px 10px;
+}
+.blognews-texte{
+	float:left;
+    padding-top:5px;
+	margin:12px 5px;
+}
+.blognews-titre{
+    font-weight:bold;
+}
+.blognews-bloc{
+    clear:both;
 }
